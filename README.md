@@ -1,10 +1,12 @@
 # Spring5MVCAnnotation-Hibernate
 
 Install and Run on Tomcat 9 Server
+
 Increase server timeout to 60 seconds
+
 Select "Publish module contexts to separate XML files" in Server options
 
-#SQL Scripts
+# SQL Scripts
 
 CREATE DATABASE mysql;
 
@@ -42,8 +44,8 @@ create table STUDENT (
    CONSTRAINT student_address FOREIGN KEY (STUDENT_ADDRESS) REFERENCES ADDRESS (ADDRESS_ID)
 );
      
-#URLs
-POST:   http://localhost:8080/Spring5MVCAnnotation/employee/add
+# URLs
+# POST:   http://localhost:8080/Spring5MVCAnnotation/employee/add
 
 #Sample data
 {
@@ -52,10 +54,11 @@ POST:   http://localhost:8080/Spring5MVCAnnotation/employee/add
 "salary" : 1000
 }
 
-#GET:   http://localhost:8080/Spring5MVCAnnotation/employee/get/1
-		http://localhost:8080/Spring5MVCAnnotation/employee/get/exception
+# GET:   http://localhost:8080/Spring5MVCAnnotation/employee/get/1
+		
+         http://localhost:8080/Spring5MVCAnnotation/employee/get/exception
 
-Reference:
+# Reference:
 
 http://www.javainterviewpoint.com/hibernate-one-to-one-bidirectional-mapping-foreign-key/
 
