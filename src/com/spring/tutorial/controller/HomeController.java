@@ -27,6 +27,11 @@ import com.spring.tutorial.model.Student;
 import com.spring.tutorial.service.EmployeeService;
 import com.spring.tutorial.service.StudentService;
 
+
+/*
+ * As a note, the main difference between @Controller and @RestController is how the response is generated – the @RestController also defines @ResponseBody by default.
+ * */
+
 @Controller
 @RequestMapping("/employee")
 public class HomeController {
