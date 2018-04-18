@@ -45,7 +45,8 @@ create table STUDENT (
 );
      
 # URLs
-# POST:   http://localhost:8080/Spring5MVCAnnotation/employee/add
+# POST:   
+          http://localhost:8080/Spring5MVCAnnotation/employee/add
 
 #Sample data
 {
@@ -54,7 +55,8 @@ create table STUDENT (
 "salary" : 1000
 }
 
-# GET:   http://localhost:8080/Spring5MVCAnnotation/employee/get/1
+# GET:   
+         http://localhost:8080/Spring5MVCAnnotation/employee/get/1
 		
          http://localhost:8080/Spring5MVCAnnotation/employee/get/exception
 
