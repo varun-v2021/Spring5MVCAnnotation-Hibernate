@@ -56,8 +56,15 @@ POST:   http://localhost:8080/Spring5MVCAnnotation/employee/add
 		http://localhost:8080/Spring5MVCAnnotation/employee/get/exception
 
 Reference:
+
 http://www.javainterviewpoint.com/hibernate-one-to-one-bidirectional-mapping-foreign-key/
+
 https://howtodoinjava.com/spring5/webmvc/spring-dispatcherservlet-tutorial/
+
 https://stackoverflow.com/questions/16909742/spring-4-x-3-x-web-mvc-rest-api-and-json2-post-requests-how-to-get-it-right-o
+
 https://dzone.com/tutorials/java/hibernate/hibernate-example/hibernate-mapping-one-to-one-using-annotations-1.html
+
 http://websystique.com/hibernate/hibernate-one-to-one-unidirectional-with-foreign-key-associations-annotation-example/
+
+https://www.concretepage.com/spring/spring-mvc/spring-handlerinterceptor-annotation-example-webmvcconfigureradapter
